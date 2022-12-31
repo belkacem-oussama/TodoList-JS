@@ -1,0 +1,71 @@
+*{
+    background-color: beige;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    height: 50px;
+}
+
+.tasks{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border: solid;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+.displayTasks{
+    border: solid;
+    border-color: grey;
+    height: 500px;
+    width: 99%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.addTasks{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.addTasksInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 80%;
+    height: 50px;
+    border: solid;
+    border-radius: 10px;
+    border-color: grey;
+    margin-top: 10px;
+    margin: 5px;
+}
+
+.input{
+    width: 90%;
+}
+
+.button{
+    border-radius:500px;
+    width:140px;
+    height:30px;
+    margin: 10px;
+    font-weight: bold;
+}
+
